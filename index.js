@@ -11,6 +11,6 @@ function nowServing(katzDelLine) {
   }  else {
     var nextinline = katzDelLine[0]
     katzDeliLine.shift()
-    return nextinline
+    return `Currently serving ${nextinline}.`
   }
 }
