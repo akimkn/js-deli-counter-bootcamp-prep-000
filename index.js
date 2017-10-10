@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine, customer) {
   return `Welcome, ${customer}. You are number ${katzDeliLine.length} in line.`
 }
 
-function nowServing() {
+function nowServing(katzDelLine) {
   if (katzDeliLine.length > 0) {
     return katzDeliLine[katzDeliLine.length - 1]
     katzDeliLine.pop()
