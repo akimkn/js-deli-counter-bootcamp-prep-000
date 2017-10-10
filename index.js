@@ -9,8 +9,8 @@ function nowServing(katzDelLine) {
   if (katzDeliLine.length=0) {
     return "There is nobody waiting to be served!"
   }  else {
-    var nobody = []
-    return katzDeliLine[0]
+    var nextinline = katzDelLine[0]
     katzDeliLine.shift()
+    return nextinline
   }
 }
