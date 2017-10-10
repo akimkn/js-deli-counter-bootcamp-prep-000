@@ -15,3 +15,11 @@ function nowServing(katzDeliLine) {
     return `Currently serving ${nextinline}.`
   }
 }
+
+function nowServing(katzDeliLine) {
+  if (katzDeliLine.length > 0) {
+    var nextinline = katzDeliLine[0]
+    katzDeliLine.shift()
+    return `Currently serving ${nextinline}.`
+  }
+}
