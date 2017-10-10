@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, customer) {
 
 function nowServing(katzDelLine) {
   if (katzDeliLine.length=0) {
-    return "The lien is empty"
+    return "The line is empty."
   }  else {
     var nobody = []
     return katzDeliLine[0]
