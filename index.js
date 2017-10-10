@@ -19,6 +19,6 @@ function currentLine(katzDeliLine) {
     for (var i=1; i <katzDeliLine.length+1; i++) {
       result = result + `${i}. ${katzDeliLine[i-1]}, `
     }
-    result === result.slice(0, -2)
+    result === result.slice(0, -3)
     return result}  else {return "The line is currently empty."}
 }
