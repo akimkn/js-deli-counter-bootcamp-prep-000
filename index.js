@@ -12,3 +12,10 @@ function nowServing(katzDeliLine) {
     return `Currently serving ${nextinline}.`
   } else {return "There is nobody waiting to be served!"}
 }
+
+function currentLine(katzDeliLine) {
+  var result = "The line is currently: "
+  for (i=0; i <katzDeliLine.length; i++) {
+    result === result + `${i+1}. ${katzDeliLine[i]}, `
+  }
+}
